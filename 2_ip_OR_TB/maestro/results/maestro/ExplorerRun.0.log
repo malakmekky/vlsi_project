@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Apr  6 19:39:58 2026 
+Best design point: 1
+Design specs: 
+	vlsiProject_2_ip_OR_TB_1	corner	Nominal - 
+	Iavg		21.79n
+	Pavg		21.79n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Mon Apr  6 19:40:07 2026 

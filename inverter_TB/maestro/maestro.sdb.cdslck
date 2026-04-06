@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      malakmekky@auc.egy
+HostName                       elc-p07-2087l10
+ProcessIdentifier              12448
+ProcessCreationTime_UTC        1775487661
+ProcessCreationTime_Readable   Mon Apr  6 17:01:01 2026 EET
+AppIdentifier                  /eda/cadence/2025-26/RHELx86/IC_25.10.030/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/malakmekky@auc.egy/cadence/vlsiProject/inverter_TB/maestro/maestro.sdb
+TimeEditLocked                 Mon Apr  6 20:05:36 2026 EET
