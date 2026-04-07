@@ -1,14 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Apr  6 20:01:26 2026 
+Current time: Tue Apr  7 15:18:31 2026 
 Best design point: 1
 Design specs: 
 	vlsiProject_2_ip_AND_TB_1	corner	Nominal - 
-	average(IT("/I0/VDD"))		7.782n
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Apr  6 20:01:36 2026 
+Current time: Tue Apr  7 15:18:40 2026 

@@ -1,13 +1,15 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Apr  6 19:35:15 2026 
+Current time: Tue Apr  7 15:29:57 2026 
 Best design point: 1
 Design specs: 
 	vlsiProject_2_ip_XOR_TB_1	corner	Nominal - 
+	pavg		16.29n
+	buffer p		33.89n
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Apr  6 19:35:25 2026 
+Current time: Tue Apr  7 15:30:06 2026 

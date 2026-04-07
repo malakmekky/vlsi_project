@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr  7 21:04:53 2026 
+Best design point: 1
+Design specs: 
+	vlsiProject_full_adder_buffer_TB_1	corner	Nominal - 
+	Pavg		77.84n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Apr  7 21:05:02 2026 

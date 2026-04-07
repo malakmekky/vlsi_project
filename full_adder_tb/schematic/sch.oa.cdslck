@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      malakmekky@auc.egy
+HostName                       elc-p07-2087l10
+ProcessIdentifier              157809
+ProcessCreationTime_UTC        1775587944
+ProcessCreationTime_Readable   Tue Apr  7 20:52:24 2026 EET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/malakmekky@auc.egy/cadence/vlsiProject/full_adder_tb/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Apr  7 20:57:46 2026 EET

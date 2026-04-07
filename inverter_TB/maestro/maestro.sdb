@@ -31,15 +31,33 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>wn
-						<value>80n</value>
+					<var>WN
+						<value>65n*k</value>
 					</var>
-					<var>wp
-						<value>80n</value>
+					<var>WP
+						<value>65n*k*2.5122</value>
+					</var>
+					<var>k
+						<value>1:12</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>delay(?wf1 VT("/net1") ?value1 0.4 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "rising" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/net1") ?value1 0.5 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "rising" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/net1") ?value1 0.5 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "falling" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">vlsiProject_inverter_TB_1</test>
+		</checksasserts>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -47,10 +65,6 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
-		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">vlsiProject_inverter_TB_1</test>
-		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
