@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC25.1-64b.ISR3.31" modifiedTime="04/07/2026 21:21:26" version="5">active
-	<Test Name="vlsiProject_2_ip_XOR_TB_1">
+<statedb ICVersion="IC25.1-64b.ISR3.31" modifiedTime="04/07/2026 21:18:36" version="5">active
+	<Test Name="vlsiProject_2_ip_XOR_buffer_TB_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="designInfo" Type="list">("vlsiProject" "2_ip_XOR_TB" "schematic" "spectre")</field>
-			<field Name="projectDir" Type="string">"/home/malakmekky@auc.egy/simulation/vlsiProject/2_ip_XOR_TB/maestro/results/maestro/.tmpADEDir_malakmekky@auc.egy/vlsiProject_2_ip_XOR_TB_1/simulation"</field>
+			<field Name="designInfo" Type="list">("vlsiProject" "2_ip_XOR_buffer_TB" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/home/malakmekky@auc.egy/simulation/vlsiProject/2_ip_XOR_buffer_TB/maestro/results/maestro/.tmpADEDir_malakmekky@auc.egy/vlsiProject_2_ip_XOR_buffer_TB_1/simulation"</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable
@@ -156,7 +156,7 @@
 						<field Name="tranNoise" Type="string">""</field>
 						<field Name="errpreset" Type="string">""</field>
 						<field Name="calcStop" Type="string">""</field>
-						<field Name="stop" Type="string">"6u"</field>
+						<field Name="stop" Type="string">"10u"</field>
 						<field Name="enable" Type="list">(t)</field>
 						<field Name="lpsdmaxfreqvalue" Type="string">""</field>
 						<field Name="ltotalsamplesvalue" Type="string">""</field>
@@ -493,7 +493,7 @@
 					<field Name="time_window_a" Type="string">""</field>
 					<field Name="sumInfo_a" Type="string">""</field>
 					<field Name="infoFrame" Type="string">""</field>
-					<field Name="infoOptions" Type="list">(("modelParameter" "models" "rawfile" "" "" "" t) ("element" "inst" "rawfile" "" "" "" t) ("outputParameter" "output" "rawfile" "" "" "" t) ("designParamVals" "parameters" "rawfile" "" "" "" t) ("primitives" "primitives" "rawfile" "" "" "" t) ("subckts" "subckts" "rawfile" "" "" "" t) ("asserts" "assert" "rawfile" "" "" "" nil) ("extremeinfo" "all" "logfile" "" "yes" "" nil) ("allcap" "allcap" "file" "" "" "" nil) ("simStatistics" "simstat" "rawfile" "" "" "" nil) ("&lt;Click_To_Add&gt;" "none" "rawfile" "" "" "" nil))</field>
+					<field Name="infoOptions" Type="list">(("modelParameter" "models" "rawfile" "" "" "" t) ("element" "inst" "rawfile" "" "" "" t) ("outputParameter" "output" "rawfile" "" "" "" t) ("designParamVals" "parameters" "rawfile" "" "" "" t) ("primitives" "primitives" "rawfile" "" "" "" t) ("subckts" "subckts" "rawfile" "" "" "" t) ("asserts" "assert" "rawfile" "" "" "" nil) ("extremeinfo" "all" "logfile" "" "yes" "" nil) ("simStatistics" "simstat" "rawfile" "" "" "" nil) ("&lt;Click_To_Add&gt;" "none" "rawfile" "" "" "" nil))</field>
 					<field Name="captab_detail" Type="string">"node"</field>
 					<field Name="captab_sort" Type="string">"name"</field>
 					<field Name="captab_threshold" Type="string">""</field>
@@ -504,7 +504,7 @@
 				<field Name="outputList" Type="skillList">
 					<field Name="outputList_0" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="string">"Pavg"</field>
-						<field Name="expression" Type="list">average(IT("/I0/VDD"))</field>
+						<field Name="expression" Type="list">average(IT("/V2/PLUS"))</field>
 						<field Name="signal" Type="list">nil</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
@@ -543,7 +543,7 @@
 					<field Name="outputList_1" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/VDD"</field>
+						<field Name="signal" Type="string">"/V2/PLUS"</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
 						<field Name="evalType" Type="list">nil</field>
@@ -574,7 +574,7 @@
 						<field Name="label" Type="list">nil</field>
 						<field Name="yaxisUnit" Type="list">nil</field>
 						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/VDD"</field>
+						<field Name="uniqueName" Type="string">"/V2/PLUS"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
 						<field Name="inValidObject" Type="list">nil</field>
 						<field Name="inLastSet" Type="list">nil</field>
@@ -879,7 +879,7 @@
 				<field Name="minr" Type="string">""</field>
 				<field Name="dcAddtionalArguments" Type="string">""</field>
 				<field Name="maxnotestologfile" Type="string">""</field>
-				<field Name="dcSeverity" Type="string">"None"</field>
+				<field Name="dcSeverity" Type="string">""</field>
 				<field Name="dptran_gmethod" Type="string">""</field>
 				<field Name="notation" Type="string">""</field>
 				<field Name="dcDisableAll" Type="list">nil</field>
@@ -892,7 +892,7 @@
 				<field Name="tranEnableAll" Type="list">nil</field>
 				<field Name="dcOpAddtionalArguments" Type="string">""</field>
 				<field Name="wfdebug" Type="string">"none"</field>
-				<field Name="tranSeverity" Type="string">"None"</field>
+				<field Name="tranSeverity" Type="string">""</field>
 				<field Name="tnom" Type="string">"27"</field>
 				<field Name="ch_freq" Type="list">nil</field>
 				<field Name="cols" Type="string">"80"</field>
@@ -931,7 +931,7 @@
 				<field Name="dcOpFilterExtreme" Type="list">nil</field>
 				<field Name="debug" Type="string">""</field>
 				<field Name="diagnose" Type="string">""</field>
-				<field Name="noiseSeverity" Type="string">"None"</field>
+				<field Name="noiseSeverity" Type="string">""</field>
 				<field Name="iabstol" Type="string">"1e-12"</field>
 				<field Name="value1" Type="string">""</field>
 				<field Name="dcOpFilterNone" Type="list">nil</field>
@@ -949,13 +949,13 @@
 				<field Name="gmin" Type="string">"1e-12"</field>
 				<field Name="pzAddtionalArguments" Type="string">""</field>
 				<field Name="pzFilterExtreme" Type="list">nil</field>
-				<field Name="pzSeverity" Type="string">"None"</field>
-				<field Name="spSeverity" Type="string">"None"</field>
+				<field Name="pzSeverity" Type="string">""</field>
+				<field Name="spSeverity" Type="string">""</field>
 				<field Name="dcOpEnableAll" Type="list">nil</field>
 				<field Name="multithread" Type="string">""</field>
 				<field Name="nportbbsfittedfiledir" Type="string">""</field>
 				<field Name="error" Type="string">""</field>
-				<field Name="dcOpSeverity" Type="string">"None"</field>
+				<field Name="dcOpSeverity" Type="string">""</field>
 				<field Name="checklimitskipinsts" Type="string">""</field>
 				<field Name="spEnableAll" Type="list">nil</field>
 				<field Name="nport_default_interp" Type="string">""</field>
@@ -969,7 +969,7 @@
 				<field Name="additionalArgs" Type="string">""</field>
 				<field Name="acDisableAll" Type="list">nil</field>
 				<field Name="acEnableAll" Type="list">nil</field>
-				<field Name="acSeverity" Type="string">"None"</field>
+				<field Name="acSeverity" Type="string">""</field>
 				<field Name="nportcompress" Type="string">""</field>
 				<field Name="sensfileonly" Type="string">""</field>
 				<field Name="nportcompressfiledir" Type="string">""</field>
@@ -1109,24 +1109,19 @@
 		<component Name="variables" Type="skillTable">variableTable
 			<field Name="saveComponent" Type="skillList">
 				<field Name="saveComponent_0" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"WN"</field>
+					<field Name="name" Type="string">"wn"</field>
 					<field Name="expression" Type="string">"80n"</field>
 					<field Name="index" Type="fixnum">1</field>
 				</field>
 				<field Name="saveComponent_1" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"WP"</field>
+					<field Name="name" Type="string">"WN"</field>
 					<field Name="expression" Type="string">"80n"</field>
 					<field Name="index" Type="fixnum">2</field>
 				</field>
 				<field Name="saveComponent_2" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"wn"</field>
+					<field Name="name" Type="string">"WP"</field>
 					<field Name="expression" Type="string">"80n"</field>
 					<field Name="index" Type="fixnum">3</field>
-				</field>
-				<field Name="saveComponent_3" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"wp"</field>
-					<field Name="expression" Type="string">"80n"</field>
-					<field Name="index" Type="fixnum">4</field>
 				</field>
 			</field>
 		</component>

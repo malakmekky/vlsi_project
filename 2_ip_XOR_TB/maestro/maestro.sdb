@@ -37,6 +37,12 @@
 					<var>wp
 						<value>80n</value>
 					</var>
+					<var>WN
+						<value>80n</value>
+					</var>
+					<var>WP
+						<value>80n</value>
+					</var>
 				</vars>
 			</test>
 		</tests>

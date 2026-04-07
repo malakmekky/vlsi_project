@@ -32,23 +32,14 @@
 				</tooloptions>
 				<vars>
 					<var>WN
-						<value>65n*k</value>
+						<value>80n</value>
 					</var>
 					<var>WP
-						<value>65n*k*2.5122</value>
-					</var>
-					<var>k
-						<value>1:12</value>
+						<value>80n</value>
 					</var>
 				</vars>
 				<outputs>
 					<output>delay(?wf1 VT("/net1") ?value1 0.4 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "rising" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
-						<evalType>point</evalType>
-					</output>
-					<output>delay(?wf1 VT("/net1") ?value1 0.5 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "rising" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
-						<evalType>point</evalType>
-					</output>
-					<output>delay(?wf1 VT("/net1") ?value1 0.5 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/net2") ?value2 0.5 ?edge2 "falling" ?nth2 0 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
 						<evalType>point</evalType>
 					</output>
 				</outputs>

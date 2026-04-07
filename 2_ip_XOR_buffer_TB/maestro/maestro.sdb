@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>vlsiProject_buffer_TB_1
+			<test>vlsiProject_2_ip_XOR_buffer_TB_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>buffer_TB</value>
+						<value>2_ip_XOR_buffer_TB</value>
 					</option>
 					<option>lib
 						<value>vlsiProject</value>
@@ -34,9 +34,6 @@
 					<var>wn
 						<value>80n</value>
 					</var>
-					<var>wp
-						<value>80n</value>
-					</var>
 					<var>WN
 						<value>80n</value>
 					</var>
@@ -55,7 +52,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">vlsiProject_buffer_TB_1</test>
+			<test netlist="0" netlistscope="all">vlsiProject_2_ip_XOR_buffer_TB_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
